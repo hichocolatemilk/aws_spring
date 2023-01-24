@@ -10,10 +10,17 @@ public class IndexController {
 
     @GetMapping("/")
     public String index(){
+<<<<<<< HEAD
         
         return "index";
     }
     
+=======
+
+        return "index";
+    }
+
+>>>>>>> origin/mustech
     @GetMapping("/posts/save")
     public String postsSave(){
         return "posts-save";
