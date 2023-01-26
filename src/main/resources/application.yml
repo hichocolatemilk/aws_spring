@@ -14,7 +14,8 @@ spring:
   h2:
     console:
       enabled: true
-
+  profiles:
+    include: oauth
 server:
   servlet:
     encoding:

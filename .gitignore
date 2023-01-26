@@ -36,3 +36,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### 어플리케이션 설정 ###
+application-oauth.yml
