@@ -10,6 +10,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity
+@Table(name = "USERS")
 public class User {
 
     @Id
@@ -45,6 +46,7 @@ public class User {
     }
 
     public String getRoleKey(){
+
         return  this.role.getKey();
     }
 }
