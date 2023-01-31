@@ -18,9 +18,13 @@ spring:
     include: oauth
   session:
     store-type: jdbc
-server:
-  servlet:
-    encoding:
-      force-response: true
-      charset: UTF-8
-      enabled: true
+
+      #Test OAuth
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test
+            client-secret: test
+            scope: profile, email
