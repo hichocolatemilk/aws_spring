@@ -28,6 +28,7 @@ repositories{
 
 jar{
     enabled = false
+    archiveClassifier = ''
 }
 
 dependencies{
