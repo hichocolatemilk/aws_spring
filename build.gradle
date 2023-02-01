@@ -27,7 +27,7 @@ repositories{
 }
 
 tasks.named("jar") {
-    enabled = true
+    enabled = false
 }
 
 dependencies{
