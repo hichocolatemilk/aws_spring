@@ -26,6 +26,10 @@ repositories{
     mavenCentral()
 }
 
+jar {
+    enabled = false
+}
+
 dependencies{
 
     implementation('org.springframework.boot:spring-boot-starter-web')
@@ -41,6 +45,3 @@ dependencies{
     testImplementation 'junit:junit:4.13.1'
 }
 
-jar {
-    enabled = false
-}
