@@ -3,14 +3,16 @@ spring:
     show-sql: true
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL57Dialect
-        storage_engine: innodb
+        nodeValue:
+          dialect: org.hibernate.dialect.MySQL57Dialect
+          storage_engine: innodb
     defer-datasource-initialization: true
-    hibernate:
-      ddl-auto: create-drop
-  h2:
-    console:
-      enabled: true
+#  datasource:
+#    hikari:
+#      jdbc-url: jdbc:h2:mem://localhost/~/testdb;MODE=MYSQL
+#  h2:
+#    console:
+#      enabled: true
   profiles:
     include: oauth
   session:
@@ -19,5 +21,4 @@ server:
   servlet:
     encoding:
       force-response: true
-      charset: UTF-8
-      enabled: true
+
