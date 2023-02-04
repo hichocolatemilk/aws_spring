@@ -18,9 +18,6 @@ spring:
     include: oauth
   session:
     store-type: jdbc
-    jdbc:
-      initialize-schema: always
-      table-name: SPRING_SESSION
 
 server:
   servlet:
