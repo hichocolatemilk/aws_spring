@@ -19,7 +19,9 @@ spring:
   session:
     initialize-schema: always
     table-name: SPRING_SESSION
-    store-type: jdbc
+#    store-type: jdbc
+    jdbc:
+      schema: classpath:org/springframework/session/jdbc/schema-postgresql.sql
 
 server:
   servlet:
