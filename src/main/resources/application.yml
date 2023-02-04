@@ -23,5 +23,5 @@ server:
   servlet:
     encoding:
       force-response: true
-  port: 8090
+  port: 8080
 
