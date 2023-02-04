@@ -7,8 +7,6 @@ spring:
           dialect: org.hibernate.dialect.MySQL57Dialect
           storage_engine: innodb
     defer-datasource-initialization: true
-    hibernate:
-      ddl-auto: create-drop
     datasource:
     hikari:
       jdbc-url: jdbc:h2:mem://localhost/~/testdb;MODE=MYSQL
