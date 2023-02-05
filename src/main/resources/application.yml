@@ -17,8 +17,6 @@ spring:
   profiles:
     include: oauth
   session:
-    initialize-schema: always
-    table-name: SPRING_SESSION
     store-type: jdbc
 
 
@@ -26,4 +24,3 @@ server:
   servlet:
     encoding:
       force-response: true
-
