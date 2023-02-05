@@ -19,7 +19,8 @@ spring:
   session:
     store-type: jdbc
     jdbc:
-      initialize-schema: embedded
+      initialize-schema: always
+      table-name: SPRING_SESSION_ATTRIBUTES
 
 
 server:
