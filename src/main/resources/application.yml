@@ -19,7 +19,7 @@ spring:
   session:
     store-type: jdbc
     jdbc:
-      table-name: SPRING_SESSION
+      initialize-schema: always
 server:
   servlet:
     encoding:
