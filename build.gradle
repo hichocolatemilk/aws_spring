@@ -25,8 +25,7 @@ sourceCompatibility = 10
 repositories{
     mavenCentral()
 }
-
-jar{
+jar {
     enabled = false
 }
 
