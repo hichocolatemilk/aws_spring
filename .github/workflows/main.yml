@@ -32,5 +32,17 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew clean build -x test 
       shell: bash
+      
+   
+    - name: Get current time
+      uses: josStorer/get-current-time@v2.0.2
+      id: current-time
+      with:
+        format: YYYYMMDD-HH
+        utcOffset: "+08:00"
+   
+    - name: Show current time
+      run: echo "${{ steps.current-time.outputs.formattedTime }}"
+      shell: bash
 
 
