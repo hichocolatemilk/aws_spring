@@ -38,8 +38,8 @@ jobs:
       uses: josStorer/get-current-time@v2.0.2
       id: current-time
       with:
-        format: YYYYMMDD-HH
-        utcOffset: "+08:00"
+        format: YYYY-MM-DD-HH-mm-ss
+        utcOffset: "+09:00"
    
     - name: Show current time
       run: echo "${{ steps.current-time.outputs.formattedTime }}"
