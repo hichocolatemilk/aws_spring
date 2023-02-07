@@ -1,7 +1,7 @@
 
 
 env:
-  S3_BUCKET_NAME: spring_build
+  S3_BUCKET_NAME: spring-build
   PROJECT_NAME: aws_spring
 
 name: CI-ACTION  
