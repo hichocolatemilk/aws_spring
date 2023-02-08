@@ -1,7 +1,5 @@
 ﻿version: 0.0
 os: linux
-
 files:
   - source: /
-    destination: /home/ec2-user/app/step2/zip/
-    overwrite: yes
+    destination: /home/ubuntu/build/
