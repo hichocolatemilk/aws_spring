@@ -1,0 +1,6 @@
+﻿version: 0.0
+os: linux
+file:
+  - source: /
+    destination: /home/ec2-user/app/step2/zio/
+    overwrite: yes
