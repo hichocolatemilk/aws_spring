@@ -4,13 +4,13 @@ env:
   CODE_DEPLOY_APP_NAME: springboot-webservice
   CODE_DEPLOY_GROUP_NAME: springboot-webservice-group
 
-name: deploy # (0) GitHub Action에서 보여질 이름을 지정합니다. 
+name: CI-ACTION # (0) GitHub Action에서 보여질 이름을 지정합니다. 
 
 on:
   release:
     types: [push] # (1) push시 자동으로 실행됩니다.
   push:
-    branches: [main] # (2) main 브랜치에서 동작합니다.
+    branches: [master] # (2) main 브랜치에서 동작합니다.
   workflow_dispatch: # (3) 수동으로도 실행이 가능합니다.
 
 
@@ -40,7 +40,7 @@ jobs:
       shell: bash
       
     - name: Get current time
-      uses: 1466587594/get-current-time@v2 
+      uses: josStorer/get-current-time@v2.0.2
       id: current-time
       with:
         format: YYYY-MM-DDTHH-mm-ss # (9)
