@@ -1,10 +1,6 @@
-﻿{
-  "version": 0,
-  "os": "linux",
-  "flies": [
-    {
-      "source": "/",
-      "destination": "/home/ec2-user/app/step2/zip/"
-    }
-  ]
-}
+﻿---
+version: 0
+os: linux
+flies:
+  - source: "/"
+    destination: "/home/ec2-user/app/step2/zip/"
