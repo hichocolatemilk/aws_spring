@@ -1,4 +1,7 @@
 ﻿{
   version: 0.0,
-  os: "linux"
+  os: "linux",
+  files:
+    - source: /
+      destination: /home/ec2-user/app/step2/zip/
 }
