@@ -20,7 +20,10 @@ spring:
     store-type: jdbc
     jdbc:
       initialize-schema: always
+  pid:
+    file: /home/ec2-user/app/step2/aws_spring.pid
 server:
   servlet:
     encoding:
       force-response: true
+
