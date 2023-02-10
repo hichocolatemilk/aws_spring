@@ -20,11 +20,12 @@ public class SecurityConfig  {
                 .headers().frameOptions().disable()
                 .and()
                 .authorizeHttpRequests( request -> request
-                        .antMatchers("/", "/css/**", "/imges/**", "/js/**", "/h2-console/**", "profile").permitAll()
+                        .antMatchers("/", "/css/**", "/images/**", "/js/**", "/h2-console/**", "/profile").permitAll()
                         .antMatchers("/api/v1/**").hasAnyRole(Role.USER.name())
                         .anyRequest().authenticated())
                 .logout(logout -> logout.logoutSuccessUrl("/"))
                 .oauth2Login(login -> login.userInfoEndpoint().userService(customOAuth2UserService));
+
 
         return http.build();
     }
