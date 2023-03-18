@@ -18,11 +18,8 @@
   
   
   server:
-
     servlet:
-  
       encoding:
-    
         force-response: true
     
 
