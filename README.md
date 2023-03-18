@@ -7,7 +7,7 @@
 스프링 부트와 AWS로 혼자 구현하는 웹 서비스 책을 보고 구현하면서 생긴 이슈 정리했습니다.
 책과 같이 참조와 아래내용 보시면 도움이 더 될 것 같습니다.
 
-[전반적인 내용](https://velog.io/@kimsy8979/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8%EC%99%80-AWS%EB%A1%9C-%ED%98%BC%EC%9E%90-%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94-%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%9B%84%EA%B8%B0-12)
+[전반적인 내용 ](https://velog.io/@kimsy8979/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8%EC%99%80-AWS%EB%A1%9C-%ED%98%BC%EC%9E%90-%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94-%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%9B%84%EA%B8%B0-12)
 
 
 ### 1. 4장 - 머스태치 화면 한글 깨지는 현상
@@ -59,7 +59,7 @@
 
 ### 5. 6장 - Java 11설치 
 
-[Java 11 ](https://pompitzz.github.io/blog/Java/awsEc2InstallJDK11.html#jdk-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5)
+[Java 11 설치 참조 ](https://pompitzz.github.io/blog/Java/awsEc2InstallJDK11.html#jdk-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5)
 
   sudo curl -L https://corretto.aws/downloads/latest/amazon-corretto-11-x64-linux-jdk.rpm -o jdk11.rpm // aws coreetto 다운로드
   
@@ -73,7 +73,7 @@
   
 ### 6. 6장 - Hostname 변경
 
-[Hostname 변경](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/set-hostname.html)
+[Hostname 변경 참조](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/set-hostname.html)
 
   AMAZON Linux 2로 변경되면서 책에 있는 Hostname 변경이 달라졌습니다.
   
@@ -81,7 +81,7 @@
   
 ### 7. 8장 - 메모리 늘리기(gradle 테스트 전 하면 좋은 설정)
 
-[메모리 늘리기](https://velog.io/@shawnhansh/AWS-EC2-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%8A%A4%EC%99%91)
+[메모리 늘리기 참조](https://velog.io/@shawnhansh/AWS-EC2-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%8A%A4%EC%99%91)
 
   EC2에서 build할 시 램(1GB)이 부족하여 자주 멈추는 현상이 발생할 수 있습니다.
   메모리 스왑을 하여 메모리를 추가 할당하여 멈추는 현상을 줄일 수 있습니다.
@@ -122,7 +122,7 @@
   
 ### 10. 9장 - Travis CI 대신 GitHubAction 사용
 
-[Travis CI 대신 GitHubAction 사용](https://github.com/jojoldu/freelec-springboot2-webservice/issues/806)
+[Travis CI 대신 GitHubAction 사용 ](https://github.com/jojoldu/freelec-springboot2-webservice/issues/806)
   
   GitHubAction 사용에 자세한 내용은 밑에 참조를 참고해주세요.
   
