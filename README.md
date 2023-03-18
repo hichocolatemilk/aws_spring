@@ -13,6 +13,7 @@
 #1. 4장 - 머스태치 화면 한글 깨지는 현상
 
   스프링 부트 버전 업으로 인하여 한글이 깨지는 현상 발생
+  
   application.yml 에
   server:
   servlet:
@@ -118,6 +119,7 @@
 #10. 9장 - Travis CI 대신 GitHubAction 사용
 
 [Travis CI 대신 GitHubAction 사용](https://github.com/jojoldu/freelec-springboot2-webservice/issues/806)
+  
   GitHubAction 사용에 자세한 내용은 밑에 참조를 참고해주세요.
   
 #11. 10장 - 엔진엑스 설치
