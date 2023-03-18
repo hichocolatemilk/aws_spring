@@ -16,13 +16,13 @@
   
   application.yml 에
   
-server:
+  server:
 
-  servlet:
+    servlet:
   
-    encoding:
+      encoding:
     
-      force-response: true
+        force-response: true
     
 
 #2. 4장 - 자바스크립트 var -> let 변경
