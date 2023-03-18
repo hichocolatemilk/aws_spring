@@ -42,7 +42,7 @@
                         .antMatchers("/api/v1/**").hasAnyRole(Role.USER.name())
                         .anyRequest().authenticated())
                 .logout(logout -> logout.logoutSuccessUrl("/"))
-                .oauth2Login(login -> login.userInfoEndpoint().userService(customOAuth2UserService));`
+                .oauth2Login(login -> login.userInfoEndpoint().userService(customOAuth2UserService));
                 
   람다 형식으로 변경
 
