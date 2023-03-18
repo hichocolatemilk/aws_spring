@@ -17,10 +17,10 @@
   application.yml 에 추가
   
   
-  server:
+  `server:
     servlet:
       encoding:
-        force-response: true
+        force-response: true`
     
 
 #2. 4장 - 자바스크립트 var -> let 변경
@@ -32,7 +32,7 @@
       
 #3. 5장 - 스프링 시큐리티 변경
   
-   public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+   `public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.
                 csrf().disable()
                 .headers().frameOptions().disable()
@@ -42,7 +42,7 @@
                         .antMatchers("/api/v1/**").hasAnyRole(Role.USER.name())
                         .anyRequest().authenticated())
                 .logout(logout -> logout.logoutSuccessUrl("/"))
-                .oauth2Login(login -> login.userInfoEndpoint().userService(customOAuth2UserService));
+                .oauth2Login(login -> login.userInfoEndpoint().userService(customOAuth2UserService));`
                 
   람다 형식으로 변경
 
