@@ -17,8 +17,8 @@
   application.yml 에 추가
   
   
-  server:
-  	servlet:
+      server:
+      servlet:
       encoding:
         force-response: true
     
