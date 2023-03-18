@@ -23,14 +23,14 @@
             force-response: true
     
 
-#2. 4장 - 자바스크립트 var -> let 변경
+### 2. 4장 - 자바스크립트 var -> let 변경
 
   var는 중복선언이 가능하여 어떤 부분에서 값이 변경되고 문제가 발생하는지 파악하기 힘들다. 
   
   let은 중복선언이 불가하다.
   
       
-#3. 5장 - 스프링 시큐리티 변경
+### 3. 5장 - 스프링 시큐리티 변경
   
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.
@@ -46,7 +46,7 @@
                 
   람다 형식으로 변경
 
-#4. 5장 - - domain/User에 테이블 이름 변경
+### 4. 5장 - - domain/User에 테이블 이름 변경
 
   user가 예약어이기 때문에 오류
   @Table(name = "users") 추가
@@ -57,7 +57,7 @@
 
 책에서 사용하는 AMAZON Linux AMI가 더 이상 없어 AMAZON Linux 2 AMI로 했습니다.
 
-#5. 6장 - Java 11설치 
+### 5. 6장 - Java 11설치 
 
 [Java 11 ](https://pompitzz.github.io/blog/Java/awsEc2InstallJDK11.html#jdk-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5)
 
@@ -71,7 +71,7 @@
   
   rm -rf jdk11.rpm // 다운받은 설치키트 제거
   
-#6. 6장 - Hostname 변경
+### 6. 6장 - Hostname 변경
 
 [Hostname 변경](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/set-hostname.html)
 
@@ -79,7 +79,7 @@
   
   sudo hostnamectl set-hostname 원하는이름.localdomain
   
-#7. 8장 - 메모리 늘리기(gradle 테스트 전 하면 좋은 설정)
+### 7. 8장 - 메모리 늘리기(gradle 테스트 전 하면 좋은 설정)
 
 [메모리 늘리기](https://velog.io/@shawnhansh/AWS-EC2-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%8A%A4%EC%99%91)
 
@@ -99,7 +99,7 @@
   
   free 명령어를 친 후 swap에 숫자가 있는지 확인
   
-#8.  8장 - plain.jar 생성 방지
+### 8.  8장 - plain.jar 생성 방지
 
   Spring Boot 2.5.0 이상 부터는 jar 파일이 두개가 생성 된다.
   이중 plain.jar의 생성 방지를 위해 
@@ -110,7 +110,7 @@
   }
   를 추가한 후 배포를 한다.
   
-#9. 8장 - RDS 테이블 생성(???)
+### 9. 8장 - RDS 테이블 생성(???)
 
   FK가 계속 duplicate가 되서 테이블이 생성이 안되는 오류 발생
   
@@ -120,13 +120,13 @@
   
   변경하닌 테이블 생성이 됨.(더 조사 필요함)
   
-#10. 9장 - Travis CI 대신 GitHubAction 사용
+### 10. 9장 - Travis CI 대신 GitHubAction 사용
 
 [Travis CI 대신 GitHubAction 사용](https://github.com/jojoldu/freelec-springboot2-webservice/issues/806)
   
   GitHubAction 사용에 자세한 내용은 밑에 참조를 참고해주세요.
   
-#11. 10장 - 엔진엑스 설치
+### 11. 10장 - 엔진엑스 설치
 
   AMAZON Linux 2 AMI에서 설치 명령어 변경
   
