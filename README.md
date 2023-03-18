@@ -18,9 +18,9 @@
   
   
       server:
-      servlet:
-      encoding:
-        force-response: true
+        servlet:
+          encoding:
+            force-response: true
     
 
 #2. 4장 - 자바스크립트 var -> let 변경
