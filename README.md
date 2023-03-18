@@ -17,14 +17,18 @@
   application.yml 에
   
 server:
+
   servlet:
+  
     encoding:
+    
       force-response: true
-      추가
+    
 
 #2. 4장 - 자바스크립트 var -> let 변경
 
   var는 중복선언이 가능하여 어떤 부분에서 값이 변경되고 문제가 발생하는지 파악하기 힘들다. 
+  
   let은 중복선언이 불가하다.
   
       
