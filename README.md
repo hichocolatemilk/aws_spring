@@ -32,7 +32,7 @@
       
 #3. 5장 - 스프링 시큐리티 변경
   
-   `public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.
                 csrf().disable()
                 .headers().frameOptions().disable()
