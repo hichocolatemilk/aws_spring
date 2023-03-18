@@ -16,7 +16,7 @@
   
   application.yml 에
   
-  server:
+   server:
 
     servlet:
   
