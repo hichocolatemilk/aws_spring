@@ -18,7 +18,7 @@
   
   server:
   
-  servlet:
+   servlet:
   
     encoding:
     
