@@ -15,9 +15,13 @@
   스프링 부트 버전 업으로 인하여 한글이 깨지는 현상 발생
   
   application.yml 에
+  
   server:
+  
   servlet:
+  
     encoding:
+    
       force-response: true 추가 
 
 #2. 4장 - 자바스크립트 var -> let 변경
