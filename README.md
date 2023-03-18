@@ -14,9 +14,10 @@
 
   스프링 부트 버전 업으로 인하여 한글이 깨지는 현상 발생
   
-  application.yml 에
+  application.yml 에 추가
   
-   server:
+  
+  server:
 
     servlet:
   
